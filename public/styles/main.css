@@ -1,0 +1,56 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    align-items: center;
+    height: 8vh;
+}
+
+.blog-name{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.blog-icon{
+    width: 3rem;
+    border-radius: 2rem;
+}
+
+.container{
+    width: 10rem;
+}
+
+.image-bg{
+    background-image: url('https://codetheweb.blog/assets/img/posts/css-advanced-background-images/cover.jpg');
+    height: 19rem; 
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.center-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+
+.card{
+    border-radius: 1rem !important;
+    border: none !important;
+}
+
+.bg-content{
+    background-image: url('https://codetheweb.blog/assets/img/posts/css-advanced-background-images/cover.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 12rem;
+    border-radius: 10px;
+}
+
